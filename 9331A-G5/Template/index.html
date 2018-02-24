@@ -209,7 +209,7 @@
                     <br><b>1985:</b> Symbolics.com, the website for Symbolics Computer Corp. in Massachusetts, becomes the first registered domain.<br>
                     <br><b>1986:</b> The National Science Foundation’s NSFNET goes online to connected supercomputer centers at 56,000 bits per second — the speed of a typical dial-up computer modem. Over time the network speeds up and regional research and education networks, supported in part by NSF, are connected to the NSFNET backbone — effectively expanding the Internet throughout the United States. The NSFNET was essentially a network of networks that connected academic users along with the ARPANET.<br>
                     <br><b>1987:</b> The number of hosts on the Internet exceeds 20,000. Cisco ships its first router.<br>
-                    <br><b>1989:</b> World.std.com becomes the first commercial provider of dial-up access to the Internet. Bristish Scientist at CERN, invented the World Wide Web in 1989. Originally conceived and developed to meet the demand for automatic sharing between scientist in universities and institute around the world.<br><br>
+                    <br><b>1989:</b> World.std.com becomes the first commercial provider of dial-up access to the Internet.<br><br>
                   </div>
                   <button class="accordion"><b>YEAR 1991 - 1999</b></button> 
                   <div class = "panel" id = "1990">
@@ -325,7 +325,7 @@
 
                       <b>HTTP (Hypertext Transfer Protocol)</b> provides a network protocol standard that Web browsers and servers use to communicate.
                       <br><br><b><u>History of HTTP</u></b><br>
-                      Tim Berners-Lee created the initial HTTP in the early 1990s as part of his work in defining the original World Wide Web.  Three primary versions were widely deployed during the 1990s. Jointly developed by the W3C and the IETF.
+                      Tim Berners-Lee created the initial HTTP in the early 1990s as part of his work in defining the original World Wide Web.  Three primary versions were widely deployed during the 1990s
                       <br><br>
                       <b>
                         HTTP 0.9</b> (for support of basic hypertext documents)
@@ -339,20 +339,8 @@
                       While standard <a href = "https://www.lifewire.com/what-is-https-817971">HTTP</a> does not encrypt traffic sent over a network, the HTTPS standard was developed to add encryption to HTTP via the use of (orignially) <a href = "https://www.lifewire.com/secure-sockets-layer-816471">Secure Sockets Layer (SSL)</a> or (later) Transport Layer Security (TLS).
 
                       <br><br><b><u>How does HTTP works?</u></b><br>
-                      HTTP is an application layer protocol built on top of TCP that uses a client-server communication model. HTTP clients (such as Web browsers) and Web servers communicate via HTTP request and response messages. The three main HTTP message types are GET, POST, and HEAD. 
+                      HTTP is an application layer protocol built on top of TCP that uses a client-server communication model. HTTP clients (such as Web browsers) and Web servers communicate via HTTP request and response messages. The three main HTTP message types are GET, POST, and HEAD.
                       <br><br>
-                        <br>HTTP is a stateless communication protocol where servers do not keep information about clients in between request. <br>
-                        <br>HTTP provides support for other functionalities such as:<br>
-                        <ul>
-                      <li>cache control</li>
-                      <li>content media type (MIME) specification </li>
-                      <li>language and character set specification</li>
-                      <li>content/transfer codings</li>
-                      <li>content negotiation</li>
-                      <li>client-server protocol negotiations</li>
-                      <li>persistent connections</li>
-                      <li>request pipelining/multiplexing</li>
-                      <li>authorization/authentication</li></ul>
                       <b>HTTP GET</b> messages sent to a Web server contain only a URL. Zero or more optional data parameters may be appended to the end of the URL.
                       <br><br>  
                       The HTTP server processes the optional data portion of the URL if present and returns the result (a Web page or element of a Web page) to the browser.
@@ -498,8 +486,7 @@
 
                       <div id = "status">
                         <h3><u>Status Code</u></h3>
-                        <tr>
-                          <th><b>Informal (1xx)</b></th>
+                          <b>Informal (1xx)</b>
                           <ul style="list-style: none;">
                             <dl>
                               <dt>100 Continue</dt>
@@ -510,7 +497,7 @@
                               <dd>A WebDAV request may contain many sub-requests involving file operations, requiring a long time to complete the request. This code indicates that the server has received and is processing the request, but no response is available yet. This prevents the client from timing out and assuming the request was lost.</dd>
                             </dl>
                           </ul>
-                          <th><b>Success (2xx)</b></th>
+                          <b>Success (2xx)</b>
                           <ul style="list-style: none;">
                             <dl>
                               <dt>200 OK</dt>
@@ -529,7 +516,7 @@
                               <dd>The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by HTTP clients to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams.</dd>
                             </dl>
                           </ul>
-                          <th><b>Redirection (3xx)</b></th>
+                          <b>Redirection (3xx)</b>
                           <ul style="list-style: none;">
                             <dl>
                               <dt>300 Multiple Choices</dt>
@@ -552,7 +539,7 @@
                               <dd>The request and all future requests should be repeated using another URI. 307 and 308 parallel the behaviors of 302 and 301, but do not allow the HTTP method to change. So, for example, submitting a form to a permanently redirected resource may continue smoothly.</dd>
                             </dl>
                           </ul>
-                          <th><b>Client Error (4xx)</b></th>
+                          <b>Client Error (4xx)</b>
                           <ul style="list-style: none;">
                             <dl>
                               <dt>400 Bad Request</dt>
@@ -603,7 +590,7 @@
                               <dd>A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource. The code 451 was chosen as a reference to the novel Fahrenheit 451.</dd>
                             </dl>
                           </ul>
-                          <th><b>Server Error (5xx)</b></th>
+                          <b>Server Error (5xx)</b>
                           <ul style="list-style: none;">
                             <dl>
                               <dt>500 Internal Server Error</dt>
@@ -626,7 +613,6 @@
                               <dd>Used to indicate when the connection to the network times out.</dd>
                             </dl>
                           </ul>
-                        </tr>
                       </div>
                     </div>
                   </div>
@@ -678,6 +664,8 @@
                       <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
+                </ul>
+
                   <div class="col-lg-8 mx-auto">
                     <div class="modal-body">
                       <!-- Project Details Go Here -->
@@ -685,17 +673,12 @@
                       <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                       <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
                       <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                      <ul class="list-inline">
-                        <li>Date: January 2017</li>
-                        <li>Client: Threads</li>
-                        <li>Category: Illustration</li>
-                      </ul>
+
                       <button class="btn btn-primary" data-dismiss="modal" type="button">
                         <i class="fa fa-times"></i>
                         Close Project</button>
                     </div>
                   </div>
-                </ul>
               </div>
             </div>
           </div>
