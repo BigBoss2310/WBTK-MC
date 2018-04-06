@@ -1,0 +1,424 @@
+The Website- is a collection of web resources.
+- The founder of HTML and W3C, Tim Berners Lee, also found the website.
+- It was established in 1989.
+
+HTML - The structure and content of a website.
+
+CSS 
+- It is the presentational output of a page.
+- It is language level used to specify the presentation aspects of structurally worked up documents.
+- It is developed by Hakon Wium Lee (LHSS) & Bert Bos (JOP)
+
+Versions of CSS:
+ CSS 1
+ CSS 2.1 - June 7, 2011
+ CSS 3
+
+JS - Involves the behavioral aspect of the website.
+
+Versions of HTML:
+ HTML 1.0
+ HTML 2.0 - 1995
+ HTML 3.0
+ HTML 3.2
+ HTML 4.0
+ HTML 4.01 - December 24, 1999
+  -Strict
+  -Transitional
+  -Frameset
+ HTML 5.0 - 2014
+ HTML 5.01 - 2016
+
+ From HTML 3.0 to 4.01 it was W3c Reccomendation 
+ There was a 15 year hiatus from HTML 4.0 to 5.0.
+ HTML 5.1 is the current HTML version being used.
+
+XHTML - Extensible Hypertext Markup Language
+- It is a reformulation in XML.
+- It is data interchanged format.
+XML - It is used to mark-up data.
+- Standard, Well defined, Text based.
+
+In XHTML -documents must be well-formed.
+- end tags are required.
+- attribute values must be quoted.
+- attribute minimization.
+
+2005-2006 Mobile technology is starting. 
+-Ian Hickson helped in contributing for mobile technology to advance.
+
+WHATWG - slowly became popular by 2012.
+
+Why should we have DOCTYPE
+- It triggers the "standards" mode rendering while the other would be in "quirks" mode.
+- meaning it is compliant with HTML.
+If you do not prefer DOCTYPE, it will switch to "quirks" mode. If it has DOCTYPE, It would render in "standards" mode.
+
+They are embodied in elements. 
+ex. <head>, <body>, <title>, <meta>, etc.
+-Each of them follows a certain syntax.
+example:
+ <a href = "___" > (Link) </a> - This will all lead to a document tree structure element.
+ <a href = "___" > - start tag
+ a- tagname
+ href- attribute name
+ "__"- attribute value
+ (Link) - content
+ </a> - end tag
+
+Note: Empty elements do not have an end tag.
+ <img src "__" alt = "__">
+
+CSS Preprocessor, CSS Frameworks
+- Sass, Less, 960 Grid System, Bootstrap, Foundation, Materialize
+
+SASS(Syntactically Awesome Style Sheets) - The most popular preprocessors and is implemented in Ruby.
+- You can also define variables.
+
+LESS- A Preprocessor implemented in Javascript
+
+HTML/XHTML Stylesheets
+- Author styles- what author created.
+- User styles- preference, seperate stylesheet.
+- User Agent styles- user viewing the file.
+- External stylesheets(recommended)- CSS link to HTML.
+- Emebedded styles- style element
+- Inline styles- style attribute
+
+CSS Statements
+ @charset- character encoding scheme for mapping
+ @import- import other documents
+ @namespace- targets other documents
+ @document- stylesheet only applies to documents in specific page
+ @font-face- web donloadable files
+ @key frames- CSS animation
+ @media- responsive design
+
+CSS Selectors
+- specify which element you want to edit 
+     *Selector - used as a condition in a CSS rule
+     *Selector Syntax - chain of one or more sequences of simple selectors
+                      - always start with type selector  and universal selector
+- SIMPLE SELECTOR
+    - type 
+    - universal
+    - attribute 
+            - [attribute=value] ->> Selects all elements with target="_blank"
+            - [attribute~=value] ->> Selects all elements with a title attribute containing the value you put inside the attribute
+            - [attribute !=value] ->> Select elements that either don't have the specified attribute
+CLASS 
+    - targets the class attribute
+    
+    *PSEUDO CLASSES is used to define a special state of an element
+         dynamic pseudo class 
+         user action pseudo class - hover
+                                  - active
+                                  - focus
+                                  
+         target pseudo class -
+         language pseudo class -
+         ul element statement pseudo
+         structural pseudo clauses
+         
+    
+    
+CSS Rule Precedence- From highest to lowest priority
+- By origin and importance
+	- user agent important declarations
+	- user importance declorations
+	- author important declarations
+	- author normal declarations
+	- user normal declorations
+	- user agent normal declarations
+- By specificity- The higer the priority
+	- Inline style
+	- Number of ID selectors
+	- Number of class selectors, attribute selectors, pseudo-class
+	- Number of type selectors & pseudo-elements
+-By order - If it comes later, it goes first.
+
+CSS Declarations
+- Properties
+	- Shorthand properties
+	- vendor specific extensions (a.k.a. vendor prefixes)
+- Values
+	- keywords
+	- numbers(integers & reals indecimal notation)
+	- dimensions
+		length, angle, duration, frequency, resolution
+	- length units:
+		font relative: em, ex, ch, rem
+		viewport precentage: vw, vh, vmin, vmax
+	- absolute lengths: cm, mm q, in, pt ,pc ,px
+	- angle units: deg, grad, rad, turn
+	- duration units:  s, ms
+	- frequency units: hz, khz
+	- resolution units: dpi, dpem, dppx
+	- percentages
+	- URLs and URIs
+	- colors
+	- strings
+	- functions: calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate()
+The elements of HTML:
+html
+	head
+		title, base, link, meta, style
+	body
+		article, aside, nav,section
+		header, footer
+		main
+		address
+		div
+		h1, h2, h3, h4, h5, h6
+		
+		p
+		hr
+		pre
+		
+		ol,ul,li
+		figure
+			figcaption
+
+DOM
+ - Implementation of DOM is not like Javascript
+ - Purpose of interacting the page
+
+JS
+ - more flexible
+ - Javascript has been standardized in ECMAscript language.
+ 
+   Imperative Programming Language
+            - create instruction
+            - you can also sequence the instruction
+   Dynamical Type
+            - 
+            
+            How to create variable?
+             You can use:
+                            var - you can put it inside the function or outside
+                                e.g 
+                                   function f(){
+                                        var x = 200;
+                                        if(true){
+                                        var x = 300;
+                                        console.log(x);
+                                        }
+                                        console.log(x)
+                                        }
+                                       
+                            let - 
+ 
+                                e.g
+                                    function f(){
+                                     let x = 200l
+                                     if(true){
+                                      let x = 300;
+                                      console.log(x);
+                                     } 
+                                     console.log(x)
+                                     }
+                                    
+	a.Simple/Primitive
+        * Boolean
+            1 is equal to "thruty"
+            0 is equal to "falsy"
+                - empty string -> false
+                - undefined -> false
+        * Numbers
+            hexadecimal
+            decimal
+            binary 
+            
+        * Strings - can be delimited by single qoute to remove the spacing
+	    * Undefined
+	    * Null
+
+    b. Standard Types
+        * Standard Objects
+        - Get to know standard built-in objects Array, Boolean, Date, Error, Function, JSON, Math, Number, Object, RegExp, String, Map, Set, WeakMap and WeakSet
+
+        Expressions and Operators
+        - instanceof -> to check the type.
+		syntax - object instanceof constructor
+
+        - Typeof -> returns a string indicating the type of the operand.
+		syntax - typeof operand
+
+        - new -> creates an instance of a user-defined object type.
+		syntax - new constructor[([arguments])]
+
+        - this
+
+        - the operator precedence -> determines the oder in which operators are evaluated
+        
+        NaN - Not a Number
+        *Number 
+            - valueOf
+            - toString
+            - parseFloat
+            - parseInt
+
+	   Methods
+		Number.isNan() -> Determine whether the passed value is NaN.
+		Number.isFinite() -> Determine whether the passed value is a finite number.+
+		Number.isInteger() -> Determine whether the passed value is an integer.
+            
+        *String - Strings in javascript is enclose by " " or ' '
+
+            - length of a string (.length)
+            - concatenate
+            - toUpperCase
+            
+            Prototype
+                - object oriented implementation
+        *Math Class
+            - Math P.I
+	
+	
+	*Date
+		Methods
+	    - Date.now() -> Returns the numeric value corresponding to the current time.
+	    - Date.parse() -> Parses a string representation of a date 
+
+	  
+            
+            
+            
+            
+Function - returns any kind of value
+ 
+  a. function sayHello(){
+        console.log('Hello');               x WRONG x
+    }
+  b. function greater(v1,v2){
+        if(v1 > v2){
+            return v1;
+        }else if(v2 > v1){                  * CORRECT! *
+        
+        }
+  }
+  
+  
+  * function expressions *
+        var subtract = function(a,b){
+            return a-b;
+        }
+        
+  * arrow syntax *
+        var divide = (a,b) is equal to a/b;
+        var quotient = divide(10,20);
+        
+  * functions can be recursive *
+        function factorial(n){
+            if(n < 0){
+                throw "Invalid Arugument";
+            }else if(n == 0){
+                return 1;
+            }else{
+                return n * factorial(n-1);
+            }
+        }
+
+  * functions can be nested * 
+            function outer(){
+                //some code ..
+                function inner(){
+                //inner function code here
+                }
+            }
+
+  * function args() *
+
+Function Constructor creates a new Function object. In JavaScript every function is actually a Function object.
+
+Syntax:
+	new Function ([arg1[, arg2[, ...argN]],]functionBody)
+
+Parameters
+
+ arg1, arg2, ... argN
+   Names to be used by the function as formal argument names. 
+   Each must be a string that corresponds to a valid JavaScript 
+   identifier or a list of such strings separated with a comma; 
+   for example "x", "theValue", or "a,b"
+        
+ functionBody
+   A string containing the JavaScript statements comprising the function definition.
+
+Description
+
+ Function objects created with the Function constructor are parsed when the function is 
+ created. This is less efficient than declaring a function with a function expression or function 
+ statement and calling it within your code, because such functions are parsed with the rest of the code. 
+
+ All arguments passed to the function are treated as the names of the identifiers of the parameters 
+ in the function to be created, in the order in which they are passed.
+
+ Invoking the Function constructor as a function (without using the new operator) has the same 
+ effect as invoking it as a constructor
+
+Function prototype object
+ Properties
+
+  Function.length
+   Specifies the number of arguments expected by the function.
+
+  Function.name
+   The name of the function.
+
+  Function.prototype.constructor
+   Specifies the function that creates an object's prototype.
+
+ Methods
+
+  Function.prototype.apply()
+   Calls a function and sets its this to the provided value, arguments can be passed as an Array object.
+
+  Function.prototype.bind()
+   Creates a new function which, when called, has its this set to the provided value, with a given 
+   sequence of arguments preceding any provided when the new function was called.
+
+  Function.prototype.call()
+   Calls (executes) a function and sets its this to the provided value, arguments can be passed as they are.
+
+  Function.prototype.toString()
+   Returns a string representing the source code of the function. Overrides the Object.prototype.toString method.
+
+Objects
+
+ Objects in JavaScript, just as in many other programming languages, can be compared to objects 
+ in real life. The concept of objects in JavaScript can be understood with real life, tangible objects.
+
+ In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, 
+ for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it 
+ is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+
+Objects and properties
+
+ A JavaScript object has properties associated with it. A property of an object can be explained as 
+ a variable that is attached to the object. Object properties are basically the same as ordinary 
+ JavaScript variables, except for the attachment to objects. The properties of an object define the 
+ characteristics of the object. You access the properties of an object with a simple dot-notation:
+
+Example:
+	objectName.propertyName
+
+ Like all JavaScript variables, both the object name (which could be a normal variable) and 
+ property name are case sensitive. You can define a property by assigning it a value. For example, 
+ let's create an object named myCar and give it properties named make, model, and year as 
+ follows:
+
+	var myToy = new Object();
+	myToy.make = 'Car';
+	myToy.model = 'Ford';
+	myToy.year = '1997';
+
+Properties of an object:
+ for...in loops
+ This method traverses all enumerable properties of an object and its prototype chain 
+
+ Object.keys(o)
+ This method returns an array with all the own (not in the prototype chain) enumerable properties' names ("keys") of an object o.
+ 
+ Object.getOwnPropertyNames(o)
+ This method returns an array containing all own properties' names (enumerable or not) of an object o.        
