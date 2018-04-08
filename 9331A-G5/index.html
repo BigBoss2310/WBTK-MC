@@ -1168,10 +1168,11 @@
                                     <!-- Project Details Go Here -->
                                     <div id="CSS topic1">
                                           <h2> CSS (Cascading Style Sheets)</h2>
+                                        
                                                 <center>Language used to specify the presentation (e.g. layout, fonts, formatting, colors) of structurally marked up documents (e.g. HTML, XL, SVG, MATHML)</center>
                                                 <center>Developed by Häkon Wium Lie (CHSS) and Bert Bos (SSP)</center>
-                                        
-                                          <h6>History of CSS "The CSS Saga"</h6>
+
+                                          <h1>History of CSS "The CSS Saga"</h1>
                                                  <center>The saga of CSS starts in 1994. One of the authors of this book works at CERN - the cradle of the Web - and the Web is starting to be used as a platform for electronic publishing. One crucial part of a publishing platform is missing, however: there is no way to style documents. For example, there is no way to describe a newspaper-like layout in a Web page. Having worked on personalized newspaper presentations at the MIT Media Laboratory, Håkon saw the need for a style sheet language for the Web.
 
                 Style sheets in browsers were not an entirely new idea. The separation of document structure from the document's layout had been a goal of HTML from its inception in 1990. Tim Berners-Lee wrote his NeXT browser/editor in such a way that he could determine the style with a simple style sheet. However, he didn't publish the syntax for the style sheets, considering it a matter for each browser to decide how to best display pages to its users. Other browsers, including Pei Wei's Viola (1992) and the Harmony browser (1993) The Hyper-G system was one of the Web's early competitors for the Hyper-G system had comparable style languages.
@@ -1221,6 +1222,60 @@
                 The third browser which ventured into CSS was Opera. The browser from the small Norwegian company made headlines in 1998 by being tiny (it fits on a floppy) and customizable while supporting most features found in the larger offerings from Microsoft and Netscape. Opera 3.5 was released in November 1998 and it supports most of CSS1. The Opera developers (namely Geir Ivarsøy) have also found the time to test their implementation before shipping it. The CSS1 test suite, developed by Eric Meyer with help from countless other volunteers, has made it significantly easier for implementors to test and improve their products.
 
                 As this text is being written, both Netscape and Microsoft are also working hard to get their next browsers out the door. Netscape has decided to replace the display engine in Navigator with "nglayout," which has been written from scratch with CSS as one of the foundations. Their new browser is code-named "Gecko" and you can download beta versions from http://www.mozilla.org. Microsoft has been releasing preview versions of Internet Explorer 5. Some CSS improvements are already in place, and it is expected that the WaSP initiative will remind the company that there is still some work to do before CSS1 is fully supported.</center>
+                                        
+                                          <h1>CSS Properties</h1>
+                                              <center><p><br><b>Shorthand properties</b>-allows authors to specify the values of several properties with a single property.(e.g., background, font, margin, padding, border, border-left, border-width, etc.)</br>
+
+                                              <br><b>vendor specific extensions (a.k.a, render prefixer)</b>-used by browser vendor as a prefix for the names of experimental on non-standard CSS properties, labely, renders are moving away from render prefixes in favor of user-controlled flags on preferences.(e.g. -webkit-, -moz-, -o-, -ms-.)</br>
+		
+                                              <br><b>Custom properties, aka, CSS variables</b></br>
+                                <h1>Values:</h1>
+		<ul style=="list-style-type:none">
+            <br><b><li>Value Processing</b></li>
+
+			<br>- Declared, caseaded, specified, computed, used, actual values.
+
+			relative and absolute values.
+		
+		 <br><b><li>Numbers</b></li>
+			
+                            <br>- integers or reals in (scientific) decimal notation.
+			
+		<br><b><li>Dimensions</b></li>
+
+			<br>- length, angle, duration(on time), frequency, resolution
+
+			<br>- length units:
+			
+				<br>font-relative: em, ex, ch, rem.
+
+				<br>viewport - percentage: vw, vh, vmin, vmax.
+
+				<br>absolute: cm, mm, in, pt, pc, px.
+			
+			<br>- angle units:
+
+				<br>deg, gad, rad, tarn.
+
+				<br>used in some gradient and transform function
+
+			<br>- duration (on time) units:
+
+				<br>s, ms.
+
+				<br>used in animation, transition & related properties.
+
+			<br>- frequency units:
+
+				<br>Hz, KHz.
+
+				<br>initially introduced in CSS for the (obsolete) oral media.
+
+			<br>- resolution units:
+
+				<br>dpi, dpem, dppx.
+
+				<br>used in media queries.</p></center>
                                           <h6> CSS Declaration</h6>
                                           <div class="panel">
                                           <p> Surrounded by curly braces and consist of property name and a value separated by a colon, declaration blocks are separated by semicolons.</p>
